@@ -4,10 +4,9 @@ Data Structures and Algorithms implemented using `c++` for UOM's CS2022 - Data S
 
 ## *Editor and Compiler configuration*
 
-
-
-|Editor       | Atom (with TabNine Package installed)  |
+| |Configuration|
 | :------------ | :---------- |
+|Editor       | Atom (with TabNine Package installed)  |
 |Compiler |g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0 in WSL(Windows Subsystem for Linux)|
 
 > Atom TabNine client is an advanced AI based auto-completer for all programming languages
