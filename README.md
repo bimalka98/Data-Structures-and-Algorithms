@@ -26,3 +26,76 @@ Run following commands in the Linux Shell opened in the same directory as the `m
 :~$ ./main.out                                                     //Execution
 
 ```
+
+## *Important syntaxes*
+
+**Type deduction**  Replace the type name during initialization
+
+```cpp
+auto variable_name = value;
+```
+
+
+**decltype specifier** Used to deduce a type of a given entity
+
+```cpp
+type variable_name1;
+decltype(variable_name1) variable_name2;
+```
+
+
+**Pointers**  Stores the address of a variable
+
+```cpp
+int * pointer = &variable; // Type of the object that it points is "int" here.
+```
+
+
+**References** Reference variables
+
+```c++
+int a = 5;
+int &var = a; //var references the variable a
+```
+
+
+**for loop** The fields in the header of a for loop are optional and can be left blank, but the semicolons cannot be omitted. When the condition is omitted, it always evaluates to true. For example, the following corresponds to an infinite loop where the statement is executed unconditionally:
+
+```cpp
+for ( ; ; ) statement;
+```
+
+Another variant of the for loop is called a range-based for loop, the syntax for which is as follows:
+
+```cpp
+for ( declaration : range ) statement;
+for ( int i : int ages[3] = {1,2,3} ) std::cout << i;
+```
+A while loop can always be expressed using a for loop. Here is an example: `for ( ; condition ; ) statement;`
+
+
+
+**break and continue**
+
+The break keyword is used to end a loop independently, regardless of whether it fulfils its condition. In the following program, when condition2 becomes true, the break statement will *immediately terminate the while loop*:
+
+```c++
+while (condition1){
+    statement1;
+    if (condition2)
+        break;
+}
+```
+
+Alternatively, the continue statement is used to skip the rest of the body's loop in the current iteration. In the following example, when condition2 evaluates to true, continue is called, causing the program to reach the end of the loop, skipping statement2 and *continuing with the next iteration*:
+
+```c++
+while (condition1){
+    statement1;
+    if (condition2)
+        continue;
+    statement2;
+}
+```
+
+[Reference](https://next.tech/catalog/c-plus-plus-fundamentals)
