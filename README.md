@@ -2,6 +2,8 @@
 
 Data Structures and Algorithms implemented using `c++` for UOM's CS2022 - Data Structures and Algorithms Module
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Data-Structures-and-Algorithms?branch=main)](https://bettercodehub.com/)
+
 ## *Editor and Compiler configuration*
 
 | |Configuration|
