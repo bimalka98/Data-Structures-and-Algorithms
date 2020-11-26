@@ -16,8 +16,10 @@ Data Structures and Algorithms implemented using `c++` for UOM's CS2022 - Data S
 |Editor 2|Visual Studio Code(with C/C++ and TabNine Packages installed)|
 |Compiler |g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0 in WSL(Windows Subsystem for Linux)|
 
-> Atom TabNine client is an advanced AI based auto-completer for all programming languages
 
+
+> Atom TabNine client is an advanced AI based auto-completer for all programming languages
+> VS code C/C++ extension with IntelliSense, debugging, and code browsing.
 > g++ command is a GNU c++ compiler invocation command, which is used for preprocessing, compilation, assembly and linking of source code to generate an executable file.
 
 ## *Compilation and Execution*
