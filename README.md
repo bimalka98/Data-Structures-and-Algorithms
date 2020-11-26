@@ -19,7 +19,9 @@ Data Structures and Algorithms implemented using `c++` for UOM's CS2022 - Data S
 
 
 > Atom TabNine client is an advanced AI based auto-completer for all programming languages
-> VS code C/C++ extension with IntelliSense, debugging, and code browsing.
+
+> VS code C/C++ extension with IntelliSense, debugging, and code browsing
+
 > g++ command is a GNU c++ compiler invocation command, which is used for preprocessing, compilation, assembly and linking of source code to generate an executable file.
 
 ## *Compilation and Execution*
