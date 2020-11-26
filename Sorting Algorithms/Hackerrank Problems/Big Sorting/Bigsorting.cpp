@@ -1,10 +1,18 @@
+//  -----------------------------------------------------------------------------
+//   Author               : Bimalka Piyaruwan Thalagala
+//   GitHub               : https://github.com/bimalka98
+//   Last Modified        : 26.11.2020
 // Link:  https://www.hackerrank.com/challenges/big-sorting/problem
+//  -----------------------------------------------------------------------------
+
+
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-// Function to compare two strings: Because converting strings back to integers is not working.
+// Function to compare two strings: Because converting strings back to integers
+// is not required. strings can be comapred directly.
 bool compstr(string a , string b){
     // "45", "46" both has the same length. so we need to compare them to get what is bigger.
     if (a.size() == b.size()) return a > b;

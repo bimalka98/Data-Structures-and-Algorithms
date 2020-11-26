@@ -1,3 +1,10 @@
+//  -----------------------------------------------------------------------------
+//   Author               : Bimalka Piyaruwan Thalagala
+//   GitHub               : https://github.com/bimalka98
+//   Last Modified        : 26.11.2020
+//  -----------------------------------------------------------------------------
+
+
 #include <iostream>
 #include <string>
 
