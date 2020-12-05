@@ -38,7 +38,9 @@ Run following commands in the Linux Shell opened in the same directory as the `m
 
 ```
 
-## *Important syntaxes*
+---
+
+## *Important syntaxes in modern c++ (can not be used with older versions)*
 
 **Type deduction**  Replace the type name during initialization
 
@@ -108,5 +110,37 @@ while (condition1){
     statement2;
 }
 ```
+**Concatenating two vectors**
+```c++
+vector<int> dest, src;
+//fill with data
+dest.insert(dest.end(),
+                    src.begin(),
+                    src.end());
 
 
+// Move elements from src to dest.
+// src is left in undefined but safe-to-destruct state.
+dest.insert(
+    dest.end(),
+    std::make_move_iterator(src.begin()),
+    std::make_move_iterator(src.end())
+  );
+
+// Print out concatenated vector.
+std::copy(
+    dest.begin(),
+    dest.end(),
+    std::ostream_iterator<int>(std::cout, "\n")
+  );
+
+```
+**initialization of a vector with all zeros**
+```c++
+vector<int> countingSort(vector<int> arr) {
+    vector<int> list(100,0); // 100 elements with all zeros
+    vector<int>::iterator it;
+    for(it = arr.begin(); it != arr.end(); it++) list[*it]++;
+    return list;
+}
+```

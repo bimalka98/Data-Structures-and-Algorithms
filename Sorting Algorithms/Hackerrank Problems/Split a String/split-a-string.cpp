@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+
+
 vector<string> split_string(string input_string) {
     string::iterator new_end = unique(input_string.begin(), input_string.end(), [] (const char &x, const char &y) {
         return x == y and x == ' ';
