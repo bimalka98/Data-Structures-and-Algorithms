@@ -2,16 +2,17 @@
 
 Data Structures and Algorithms implemented using `c++` for UOM's CS2022 - Data Structures and Algorithms Module
 
-## * HackerRank Status & Better Code Hub Compliance level*
+## *Better Code Hub Compliance level & HackerRank Status*
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Data-Structures-and-Algorithms?branch=main)](https://bettercodehub.com/)
 
 <code>
  <a href="https://www.hackerrank.com/180631j_entc_18">
  <img height="30" src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/styleguide/logo_wordmark-f5c5eb61ab0a154c3ed9eda24d0b9e31.svg">
  </a>
 </code>
-<code>
-[![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Data-Structures-and-Algorithms?branch=main)](https://bettercodehub.com/)
-</code>
+
+
 
 ## *Useful References*
 * [cppreference.com](https://en.cppreference.com/w/)
