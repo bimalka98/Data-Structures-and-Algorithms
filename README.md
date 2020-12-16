@@ -18,6 +18,10 @@
 ## *Useful References*
 * [cppreference.com](https://en.cppreference.com/w/)
 * [c++ fundamentals- Next.tech](https://next.tech/catalog/c-plus-plus-fundamentals)
+* [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
+* [Sorting Algorithms sample codes on JAVA, C++ and MATLAB](https://thilinasameera.wordpress.com/2011/06/01/sorting-algorithms-sample-codes-on-java-c-and-matlab/#more-420)
+
+
 
 ---
 
