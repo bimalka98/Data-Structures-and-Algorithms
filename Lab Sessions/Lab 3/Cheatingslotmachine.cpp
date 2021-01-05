@@ -17,16 +17,15 @@ int main() {
     return 0;
 }
 
-
 int a(int num1, int *array){
     if (num1 ==0) return array[0];
-    else return (((a(num1-1, array)*a(num1-1, array) + 2*b(num1-1, array) +1)% 10007) - 5000);
+    else return (((a(num1-1, array)*a(num1-1, array) + 2*b(num1-1, array) +1)%10007 +10007)%10007 - 5000);
 }
 int b(int num2, int *array){
   if (num2 ==0) return array[1];
-  else return (((b(num2-1, array)*b(num2-1, array) + 2*a(num2-1, array) -1)% 10007) - 5000);
+  else return (((b(num2-1, array)*b(num2-1, array) + 2*a(num2-1, array) -1)%10007 +10007)%10007 - 5000);
 }
 int c(int num3, int *array){
   if (num3 ==0) return array[2];
-  else return (((a(num3-1, array) + b(num3-1, array) + c(num3-1, array))% 121) -60);
+  else return (((a(num3-1, array) + b(num3-1, array) + c(num3-1, array))%121 + 121)%121 -60);
 }

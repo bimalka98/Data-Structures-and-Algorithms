@@ -6,7 +6,7 @@
 
 ## *Better Code Hub Compliance level & HackerRank Status*
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Data-Structures-and-Algorithms?branch=main)](https://bettercodehub.com/) 
+[![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Data-Structures-and-Algorithms?branch=main)](https://bettercodehub.com/)
 <code>
  <a href="https://www.hackerrank.com/180631j_entc_18">
  <img height="30" src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/styleguide/logo_wordmark-f5c5eb61ab0a154c3ed9eda24d0b9e31.svg">
@@ -20,7 +20,7 @@
 * [c++ fundamentals- Next.tech](https://next.tech/catalog/c-plus-plus-fundamentals)
 * [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 * [Sorting Algorithms sample codes on JAVA, C++ and MATLAB](https://thilinasameera.wordpress.com/2011/06/01/sorting-algorithms-sample-codes-on-java-c-and-matlab/#more-420)
-
+* [Modulo operator for negative integers](https://stackoverflow.com/questions/11720656/modulo-operation-with-negative-numbers/42131603#:~:text=The%20%25%20operator%20in%20C%20is,the%20same%20as%20the%20divisor.)
 
 
 ---
