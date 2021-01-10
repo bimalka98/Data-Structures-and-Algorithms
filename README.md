@@ -21,7 +21,7 @@
 * [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 * [Sorting Algorithms sample codes on JAVA, C++ and MATLAB](https://thilinasameera.wordpress.com/2011/06/01/sorting-algorithms-sample-codes-on-java-c-and-matlab/#more-420)
 * [Modulo operator for negative integers](https://stackoverflow.com/questions/11720656/modulo-operation-with-negative-numbers/42131603#:~:text=The%20%25%20operator%20in%20C%20is,the%20same%20as%20the%20divisor.)
-
+* [Tree Data Structure | Tree Terminology](https://www.gatevidyalay.com/tree-data-structure-tree-terminology/)
 
 ---
 
