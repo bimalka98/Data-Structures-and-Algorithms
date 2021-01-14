@@ -161,3 +161,11 @@ vector<int> countingSort(vector<int> arr) {
     return list;
 }
 ```
+**Sum of digits in a String**
+```c++
+string p = "4566";
+int var = 0;
+//The value of the char '0' is 48. The value of the char '1' is 49.
+//so when you do '1' - '0' you get the result 1
+for(char ch: p) var+= ch - '0'; 
+```
