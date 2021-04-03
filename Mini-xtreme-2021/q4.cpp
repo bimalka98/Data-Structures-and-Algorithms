@@ -3,7 +3,7 @@
 using namespace std;
 #define ull unsigned long long
 
-bool canget(int target, vector<int> & array, map<int, bool> &memo);
+bool canget(ull target, vector<int> & array, map<ull, bool> &memo);
 
 int main(){
   int t;
@@ -15,25 +15,24 @@ int main(){
   for(int i =0; i < t; i++){
     ull final;
     cin >> final;
-
-    if(canget(final,Multipliers, memo)) cout << "YES" << '\n';
-    else cout << "NO" << '\n';
+    bool status =  canget(final,Multipliers, memo);
+    if(status) cout << "Yes" << '\n';
+    else cout << "No" << '\n';
   }
-
+  return 0;
 }
 
-bool canget(int target, vector<int> & array, map<ull, bool> &memo){
-
+bool canget(ull target, vector<int> &array, map<ull, bool> &memo){
 if(memo[target]) return memo[target];
-if(target ==1) return true;
-
+if(target == 1) return true; // target perfectly divides
 //at least one element returns true it will be enough
-for(int i =0; i < 2;i++){
-  ull remainder = target/array[i];
-  if(canget(remainder, array, memo)==true) {
-    memo[target] = true;
-    return memo[target];}
-}
+for(int x: array){
+  ull remainder = target/x;
+  if (target%x == 0)
+    if(canget(remainder, array, memo)==true) {
+      memo[target] = true;
+      return memo[target];}
+    }
 memo[target] = false;
 return false;
 }
