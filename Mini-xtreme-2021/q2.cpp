@@ -1,3 +1,5 @@
+//Teacher and his Students
+//timeout with 4 sampoles
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -25,7 +27,6 @@ int main(){
               cout << "YES" << '\n';}
           else{ cout << "NO" << '\n';
               in.emplace(val);}
-
       }
     }
   }
