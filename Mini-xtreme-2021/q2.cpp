@@ -1,5 +1,5 @@
 //Teacher and his Students
-//timeout with 4 sampoles
+//timeout with 4 samples
 #include <bits/stdc++.h>
 using namespace std;
 
